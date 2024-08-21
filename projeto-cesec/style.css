@@ -30,6 +30,9 @@ header {
     color: #fff;
     padding: 1rem 0;
 }
+.imagens{
+    margin-top: 5%;
+}
 header .container{
     width: 40%;
     margin: 0 auto;
@@ -72,47 +75,19 @@ main {
     padding-bottom: 2rem;
     margin-bottom: 2rem;
     border-bottom: 1px solid #970206;
+    border-top: 1px solid #970206;
 }
+
 .cursos{
-    margin-bottom: 2rem;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #f4f4f4;
-    width: 80%;
-    max-width: 1200px;
-    display: flex;
-    gap: 20px;
+    text-align: right;
+    font-size: larger;
     border-bottom: 1px solid #970206;
-    padding-bottom: 2rem;
 }
-.colunacurso{
-    color: #fff;
-    flex: 1;
-    border: 1px solid#970206;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align:center;
-    background-color: #9702079d;
-    padding: 0;
-}
-.colunacurso h3{
-    background-color: #970206;
-    margin: 0;
-}
-.colunacurso p{
-    font-weight: bold;
-    text-transform: uppercase;
-}
-@media (max-width: 768px) {
-    .cursos{
-        flex-direction:row;
-    }
-    .colunacurso{
-        margin: 10px 0;
-    }
-}
-.cursos ul li {
-    list-style-type: none;
+.lugar img{
+    text-align: center;
+    margin: 10px;
+    max-height: 70%;
+    max-width: 70%;
 }
 footer {
     padding: 10px;
@@ -122,4 +97,30 @@ footer {
     text-align: left;
     width: 100%;
     bottom: 0;
+}
+footer img{
+    height: 15px;
+    width: 15px;
+}
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.imggrande,.imgpqn {
+    flex: 1;
+    box-sizing: border-box;
+}
+.imggrande {
+    flex: 1 1 calc(50% - 10px);
+}
+.imgpqn {
+    flex: 1 1 calc(25% - 10px);
+}
+.lugar img {
+    width: 100%;
+    height: auto;
+    display: flex;
 }
