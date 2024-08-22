@@ -109,7 +109,6 @@ footer img{
     gap: 10px;
     padding: 10px;
     box-sizing: border-box;
-    justify-content: space-between;
 }
 .imggrande,.imgpqn {
     max-height: 80%;
@@ -131,4 +130,8 @@ footer img{
 .titul{
     margin-top: 2%;
     border-bottom: 1px solid #970206;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
 }
